@@ -1,0 +1,30 @@
+{
+  "name": "phung1470/inventory-in-store-pickup-sales",
+  "description": "magento 2 module, create shipment by get stock qty from default source when target source qty is not enough",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Phung1470",
+      "email": "phung1470@gmail.com",
+      "homepage": "",
+      "role": "Magento 2 Sr.Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "magento 2",
+    "magento 2 inventory",
+    "magento 2 in store pickup sales",
+    "phung1470",
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Phung\\InventoryInStorePickupSales\\": ""
+    }
+  }
+}

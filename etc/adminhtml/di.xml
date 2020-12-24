@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\InventoryInStorePickupSales\Model\Order\IsFulfillable">
+        <plugin name="Phung_InventoryInStorePickupSales::IsFulfillable" type="Phung\InventoryInStorePickupSales\Plugin\Model\Order\IsFulfillable"/>
+    </type>
+</config>
